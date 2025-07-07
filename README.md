@@ -17,7 +17,7 @@
 The Generative Text Tool is a Python script designed to create new, coherent text based on patterns learned from a training corpus. It utilizes a Long Short-Term Memory (LSTM) neural network, which is a type of recurrent neural network particularly effective for sequential data like text.
 
 ## Key Features and Functionality
-1. **Character-Level Text Generation**:
+**Character-Level Text Generation**:
 
 - The model is trained on characters, not words.
 
