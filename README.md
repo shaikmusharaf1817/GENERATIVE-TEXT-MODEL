@@ -24,19 +24,19 @@ The Generative Text Tool is a Python script designed to create new, coherent tex
 - It treats the text as a sequence of individual characters, which allows it to learn spelling, punctuation, and grammar-like structure over time.
 
 - Enables finer control and creativity compared to word-level models.
-2. **Seed Text (Starting Prompt)**:
+**Seed Text (Starting Prompt)**:
 
 - The model requires an initial input string (seed) to begin generating new text.
 
 - This seed text is a short sequence (e.g., 100 characters) that serves as context for the model to start predicting the next character.
-3. **Temperature Control**:
+**Temperature Control**:
   
 - Temperature is a parameter used to control the randomness of predictions:
 
 - Low temperature (e.g., 0.2–0.5): Makes the model more confident and conservative. It will choose the most likely next character, leading to more predictable and repetitive output.
 
 - High temperature (e.g., 1.0–1.5): Increases randomness. The model will take more risks, which can lead to creative but less coherent outputs.
-4.**Model Architecture**:
+**Model Architecture**:
   
 The model uses
 
